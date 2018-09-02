@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main2"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_2"
+    android:orientation="vertical"
+    android:weightSum="10"
+    tools:context="com.utilitiesapps.milimuslim.milinagmae.about">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center">
+
+        <com.google.android.gms.ads.AdView xmlns:ads="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/adView"
+            android:layout_width="fill_parent"
+            android:layout_height="match_parent"
+            ads:adSize="SMART_BANNER"
+            ads:adUnitId="ca-app-pub-3444255945927869/9495924062">
+
+        </com.google.android.gms.ads.AdView>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_margin="2dp"
+            android:background="@drawable/bar_white"
+            android:gravity="center">
+
+            <TextView
+                android:layout_width="@dimen/_225sdp"
+                android:layout_height="match_parent"
+                android:layout_margin="@dimen/_4sdp"
+                android:gravity="start|center"
+                android:text="Nazria Pakistan he Baqye Pakistan hai"
+                android:textColor="#000"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/button1"
+                android:layout_width="@dimen/_42sdp"
+                android:layout_height="@dimen/_42sdp"
+                android:background="@drawable/play"
+                android:text="Play" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_margin="2dp"
+            android:background="@drawable/bar_white"
+            android:gravity="center">
+
+            <TextView
+                android:layout_width="@dimen/_225sdp"
+                android:layout_height="match_parent"
+                android:layout_margin="@dimen/_4sdp"
+                android:gravity="start|center"
+                android:text="Pakistan Ka Matlab Kiya "
+                android:textColor="#000"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/button2"
+                android:layout_width="@dimen/_42sdp"
+                android:layout_height="@dimen/_42sdp"
+                android:background="@drawable/play"
+                android:text="Play" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_margin="2dp"
+            android:background="@drawable/bar_white"
+            android:gravity="center">
+
+            <TextView
+                android:layout_width="@dimen/_225sdp"
+                android:layout_height="match_parent"
+                android:layout_margin="@dimen/_4sdp"
+                android:gravity="start|center"
+                android:text="Hafiz Saif Ullah Khalid: President MML"
+                android:textColor="#000"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/button3"
+                android:layout_width="@dimen/_42sdp"
+                android:layout_height="@dimen/_42sdp"
+                android:background="@drawable/play"
+                android:text="Play" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_margin="2dp"
+            android:background="@drawable/bar_white"
+            android:gravity="center">
+
+            <TextView
+                android:layout_width="@dimen/_225sdp"
+                android:layout_height="match_parent"
+                android:layout_margin="@dimen/_4sdp"
+                android:gravity="start|center"
+                android:text="Complete Press Conference SaifUllah Khalid,President #MML "
+                android:textColor="#000"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/button4"
+                android:layout_width="@dimen/_42sdp"
+                android:layout_height="@dimen/_42sdp"
+                android:background="@drawable/play"
+                android:text="Play" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center">
+
+        <com.google.android.gms.ads.NativeExpressAdView xmlns:ads="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/adViewnative1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            ads:adSize="320x300"
+            ads:adUnitId="ca-app-pub-3444255945927869/9376504565" />
+    </LinearLayout>
+
+
+
+</LinearLayout>
